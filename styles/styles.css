@@ -1,0 +1,123 @@
+body { 
+    background-color: white; 
+}
+
+li { 
+    font-family: calibri; 
+}
+
+
+/* Code for Top Navigation Bar */ 
+
+.top_nav { 
+    display: in-line; 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top_nav li { 
+    font-size: 16px; 
+}
+
+.left_corn li { 
+    float:left;  /* float makes all the text in-line, to the right */ 
+    padding-top: 20px;
+    margin-left: 40px;  /* margin helped me shift the text around relative to page corners */ 
+}
+
+.left_corn #a { 
+    padding-right: 15px;
+    padding-left: 30px; 
+}
+
+.right_corn li { 
+    float:right; 
+    padding-top: 20px; 
+    margin-right:40px; 
+}
+
+.right_corn li #c { 
+    padding-right:15px;
+    padding-left:2px; 
+}
+
+
+/* Code for the Center Logo and Form */ 
+
+.center { 
+    position: absolute; 
+    top: 50%; 
+    left: 40%; 
+    display: in-line; 
+}
+
+img { 
+    width: 60%; 
+    position: relative; 
+    bottom: 150px; 
+    left: 20px
+}
+
+.search { 
+    position: relative; 
+    right: 20px;
+    width: 70%; 
+    height: 20px; 
+    bottom: 130px; ; 
+}
+
+.buttons { 
+    display: in-line; 
+    position: relative; 
+}
+
+#q { 
+    position: relative; 
+    height: 40px;
+    width: 110px; 
+    right: 60%;
+    bottom: 80px;  
+
+}
+
+#l { 
+    position: relative;
+    height: 40px; 
+    width: 110px; 
+    left: 200px; 
+    bottom: 120px; 
+}
+
+
+/* Code for the Bottom Navigation/Footer */ 
+
+.foot { 
+    display: in-line;
+    list-style-type: none; 
+    margin:0; 
+    padding: 0; 
+    overflow: hidden; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    margin: 20px 20px 10px 20px;  
+}
+
+.foot li { 
+    color: grey; 
+    font-size: 18px;   
+}
+
+.left_foot li { 
+    float: left; 
+    padding-right: 15px; 
+    margin-left: 40px; 
+}
+
+.right_foot li { 
+    float:right; 
+    padding-right: 15px; 
+    margin-right: 40px; 
+}
